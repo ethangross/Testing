@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -22,13 +22,20 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Cheryl Byerly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWi-Sd-UjW">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Kzt-JZ-auR" firstAttribute="top" secondItem="3" secondAttribute="top" constant="100" id="03r-dZ-uVP"/>
+                            <constraint firstItem="bWi-Sd-UjW" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="BQ7-hy-MhZ"/>
                             <constraint firstItem="L5S-GM-a7m" firstAttribute="top" secondItem="3" secondAttribute="top" constant="186" id="Ca2-gc-4fj"/>
+                            <constraint firstItem="bWi-Sd-UjW" firstAttribute="centerX" secondItem="L5S-GM-a7m" secondAttribute="centerX" type="default" id="EMC-d0-1DW"/>
                             <constraint firstItem="L5S-GM-a7m" firstAttribute="centerX" secondItem="Kzt-JZ-auR" secondAttribute="centerX" type="default" id="F3k-Cl-G8Y"/>
-                            <constraint firstItem="L5S-GM-a7m" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="UpN-5b-rhV"/>
+                            <constraint firstItem="bWi-Sd-UjW" firstAttribute="top" secondItem="3" secondAttribute="top" constant="243" id="TZh-qi-0bt"/>
                         </constraints>
                     </view>
                 </viewController>
